@@ -1,0 +1,10 @@
+b.  If you’ve written your enqueue and dequeue using array methods, how would you
+    rewrite the same functions without using any array methods?
+    - no array methods used in both enqueue and dequeue.
+
+c.  Show how you would improve the design of your classes, apply various design
+    patterns and techniques as you see fit
+    - Create abstract class for FIFOQUEUE and LIFOQUEUE (e.g. QUEUE) since enqueue
+      and dequeue are the only methods with different implementations in the two
+      classes. Only parent class will implement the interface, thus reducing the
+      dependency between classes and interface.
